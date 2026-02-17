@@ -32,6 +32,7 @@ So that I understand why login failed
 As a Branch Admin
 I want full system access
 So that I can manage users and operations
+
 **Acceptance Criteria**
 Branch Admin can access:
 - Users Page 
@@ -44,6 +45,7 @@ Branch Admin can access:
 As a Loan Manager
 I want restricted user creation privileges
 So that governance is maintained
+
 **Acceptance Criteria**
 Loan Manager:
 - Cannot add new users 
@@ -55,6 +57,7 @@ Loan Manager:
 As a Loan Officer
 I want limited privileges
 So that I only access operational areas
+
 **Acceptance Criteria**
 Loan Officer:
 - Cannot add users 
