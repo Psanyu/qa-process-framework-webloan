@@ -10,11 +10,8 @@ So that I can access the dashboard
 
 **Acceptance Criteria**
 - Branch field is mandatory 
-- WebLoanAppFunctionalDesign_Loan…
 - Username field is mandatory 
-- WebLoanAppFunctionalDesign_Loan…
 - Password field is mandatory 
-- WebLoanAppFunctionalDesign_Loan…
 
 Session is created upon login
 Logout ends session
@@ -26,15 +23,10 @@ So that I understand why login failed
 
 **Acceptance Criteria**
 - Empty Branch → “Please fill out this field.” 
-- WebLoanAppFunctionalDesign_Loan…
 - Empty Username → “Please fill out this field.” 
-- WebLoanAppFunctionalDesign_Loan…
 - Empty Password → “Please fill out this field.” 
-- WebLoanAppFunctionalDesign_Loan…
 - Invalid Branch → “Branch does not exist” 
-- WebLoanAppFunctionalDesign_Loan…
 - Invalid Username/Password → “Invalid user name or password” 
-- WebLoanAppFunctionalDesign_Loan…
 
 **US-3: Role-Based Access – Branch Admin**
 As a Branch Admin
@@ -42,11 +34,11 @@ I want full system access
 So that I can manage users and operations
 **Acceptance Criteria**
 Branch Admin can access:
-- Users Page WebLoanAppFunctionalDesign_Loan…
-- Customers Page WebLoanAppFunctionalDesign_Loan…
-- Loans Page WebLoanAppFunctionalDesign_Loan…
-- Events Page WebLoanAppFunctionalDesign_Loan…
-- Policies Page WebLoanAppFunctionalDesign_Loan…
+- Users Page 
+- Customers Page 
+- Loans Page 
+- Events Page 
+- Policies Page 
 
 **US-4: Role-Based Access – Loan Manager**
 As a Loan Manager
@@ -54,7 +46,7 @@ I want restricted user creation privileges
 So that governance is maintained
 **Acceptance Criteria**
 Loan Manager:
-- Cannot add new users WebLoanAppFunctionalDesign_Loan…
+- Cannot add new users 
 - Can manage customers
 - Can manage loans
 - Can view events
@@ -65,14 +57,26 @@ I want limited privileges
 So that I only access operational areas
 **Acceptance Criteria**
 Loan Officer:
-- Cannot add users WebLoanAppFunctionalDesign_Loan…
-- Cannot view events WebLoanAppFunctionalDesign_Loan…
+- Cannot add users 
+- Cannot view events 
 - Can manage customers
 - Can manage loans
 
 **Definition of Done (Sprint 1)**
-All login test cases executed
-RBAC matrix validated
-Critical/High defects resolved
-Regression of authentication completed
-Automation added for valid login & invalid login
+- All login test cases executed
+- Critical/High defects resolved
+- Regression of authentication completed
+- Automation added for valid login & invalid login
+
+**RBAC matrix validated**
+## RBAC Access Matrix
+
+| Module      | Branch Admin | Loan Manager | Loan Officer |
+|-------------|--------------|--------------|--------------|
+| Users       | Full Access  | View/Edit    | No Access    |
+| Customers   | Full Access  | Full Access  | Full Access  |
+| Loans       | Full Access  | Full Access  | Full Access  |
+| Events      | Full Access  | View         | No Access    |
+| Policies    | Full Access  | View         | View         |
+
+
