@@ -1,6 +1,6 @@
 TC_ID,User_Story_ID,Title,Priority,Type,Layer,Preconditions,Steps,Test_Data,Expected_Result,Status,Defect_ID,Automation_Candidate
 S1-TC-001,US-1,Login page loads successfully,Critical,Smoke,UI,Browser available,"Open login URL",XXXXXXX,"Login page loads with Branch, Username, Password fields",Not Run,,Y
-S1-TC-002,US-1,Valid login navigates to Dashboard,Critical,Functional,UI,Valid test user exists,"Enter Branch, Username, Password > Click Login","Branch=Tauranga; Username=<valid>; Password=<valid>","Dashboard opens after successful login",Not Run,,Y
+S1-TC-002,US-1,Valid login navigates to Dashboard,Critical,Functional,UI,Valid test user exists,"Enter Branch, Username, Password > Click Login","Branch=XXXXXXX; Username=XXXXXXX; Password=XXXXXX","Dashboard opens after successful login",Not Run,,Y
 S1-TC-003,US-2,Branch is mandatory validation,Critical,Negative,UI,On Login page,"Leave Branch blank > Click Login",Blank Branch,"System shows 'Please fill out this field.'",Not Run,,Y
 S1-TC-004,US-2,Username is mandatory validation,Critical,Negative,UI,On Login page,"Leave Username blank > Click Login",Blank Username,"System shows 'Please fill out this field.'",Not Run,,Y
 S1-TC-005,US-2,Password is mandatory validation,Critical,Negative,UI,On Login page,"Leave Password blank > Click Login",Blank Password,"System shows 'Please fill out this field.'",Not Run,,Y
