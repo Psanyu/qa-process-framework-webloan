@@ -1,0 +1,10 @@
+TC_ID,User_Story_ID,Title,Priority,Type,Layer,Preconditions,Steps,Test_Data,Expected_Result,Status,Defect_ID,Automation_Candidate
+S3-TC-001,US-12,Customers page loads successfully,High,Smoke,UI,Logged in,"Click Customers in nav",N/A,"Customers list page loads successfully",Not Run,,Y
+S3-TC-002,US-12,Add Customer with valid data,High,Functional,UI,On Customers page,"Click Add Customer > Enter valid data > Save","Valid customer details","Customer created successfully",Not Run,,Y
+S3-TC-003,US-13,Customer mandatory field validation,Critical,Negative,UI,On Add Customer form,"Leave First Name blank > Save",Blank First Name,"System shows validation message",Not Run,,Y
+S3-TC-004,US-14,Duplicate Account number validation,Critical,Negative,UI,Customer exists,"Enter duplicate Account# > Save","Account#=Existing","System prevents duplicate account creation",Not Run,,Y
+S3-TC-005,US-15,Edit Customer updates information,High,Functional,UI,Customer exists,"Edit Customer > Update City > Save","City=UpdatedCity","Customer details updated successfully",Not Run,,Y
+S3-TC-006,US-16,Delete Customer removes record,High,Functional,UI,Customer exists,"Click Delete > Confirm",N/A,"Customer removed from list",Not Run,,Y
+S3-TC-007,US-17,Customer search works correctly,Medium,Functional,UI,Multiple customers exist,"Enter search term","Search=Smith","Filtered results displayed correctly",Not Run,,Y
+S3-TC-008,US-18,Customer pagination works,Medium,Functional,UI,More than 10 customers exist,"Click Next page",N/A,"Next page of customers displayed",Not Run,,Y
+
