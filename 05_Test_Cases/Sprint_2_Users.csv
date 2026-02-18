@@ -1,0 +1,10 @@
+TC_ID,User_Story_ID,Title,Priority,Type,Layer,Preconditions,Steps,Test_Data,Expected_Result,Status,Defect_ID,Automation_Candidate
+S2-TC-001,US-6,Users page loads successfully,High,Smoke,UI,Logged in as Branch Admin,"Click Users in nav",N/A,"Users list page loads with table and controls",Not Run,,Y
+S2-TC-002,US-6,Add User with valid data,High,Functional,UI,On Users page,"Click Add User > Enter valid details > Save","Valid user details","User is created successfully and appears in list",Not Run,,Y
+S2-TC-003,US-7,Add User mandatory field validation,Critical,Negative,UI,On Add User form,"Leave Username blank > Save",Blank Username,"System shows required field validation message",Not Run,,Y
+S2-TC-004,US-7,Add User duplicate username validation,Critical,Negative,UI,Existing user present,"Enter existing Username > Save","Username=ExistingUser","System prevents duplicate user creation",Not Run,,Y
+S2-TC-005,US-8,Edit User updates information,High,Functional,UI,User exists,"Edit user > Modify First Name > Save","Updated First Name","User details updated successfully",Not Run,,Y
+S2-TC-006,US-9,Delete User removes user,High,Functional,UI,User exists,"Click Delete > Confirm",N/A,"User removed from list",Not Run,,Y
+S2-TC-007,US-10,User search filters correctly,Medium,Functional,UI,Multiple users exist,"Enter search term in search field","Search=John","Only matching users displayed",Not Run,,Y
+S2-TC-008,US-11,Pagination works correctly,Medium,Functional,UI,More than 10 users exist,"Click Next page",N/A,"Next set of users displayed",Not Run,,Y
+
