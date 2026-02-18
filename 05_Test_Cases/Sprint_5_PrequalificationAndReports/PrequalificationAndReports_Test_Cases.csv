@@ -1,0 +1,8 @@
+TC_ID,User_Story_ID,Title,Priority,Type,Layer,Preconditions,Steps,Test_Data,Expected_Result,Status,Defect_ID,Automation_Candidate
+S5-TC-001,US-26,Prequalification calculation works correctly,High,Functional,UI,Customer selected,"Enter income & debt > Calculate","Income=6000; Debt=1500","Correct prequalified amount displayed",Not Run,,Y
+S5-TC-002,US-27,Central Bank rate updates properly,High,Functional,UI,On Loan page,"Click Central Bank Rate button",N/A,"Updated interest rate retrieved and applied",Not Run,,Y
+S5-TC-003,US-28,PDF loan letter generates successfully,High,Functional,UI,Loan exists,"Click PDF button",N/A,"PDF generated and downloadable",Not Run,,Y
+S5-TC-004,US-29,Report displays accurate loan summary,Medium,Functional,UI,Loans exist,"Open Reports page",N/A,"Report shows accurate aggregated data",Not Run,,Y
+S5-TC-005,US-30,Prequalification validation prevents negative income,Critical,Negative,UI,On Prequalification page,"Enter negative income","Income=-1000","Validation error displayed",Not Run,,Y
+S5-TC-006,US-31,Interest rate calculation respects bank rate,High,Functional,UI,Valid inputs entered,"Calculate loan","Rate=UpdatedRate","Correct interest rate applied",Not Run,,Y
+
