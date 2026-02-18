@@ -4,7 +4,7 @@ S1-TC-002,US-1,Valid login navigates to Dashboard,Critical,Functional,UI,Valid t
 S1-TC-003,US-2,Branch is mandatory validation,Critical,Negative,UI,On Login page,"Leave Branch blank > Click Login",Blank Branch,"System shows 'Please fill out this field.'",Not Run,,Y
 S1-TC-004,US-2,Username is mandatory validation,Critical,Negative,UI,On Login page,"Leave Username blank > Click Login",Blank Username,"System shows 'Please fill out this field.'",Not Run,,Y
 S1-TC-005,US-2,Password is mandatory validation,Critical,Negative,UI,On Login page,"Leave Password blank > Click Login",Blank Password,"System shows 'Please fill out this field.'",Not Run,,Y
-S1-TC-006,US-2,Invalid Branch shows correct message,High,Negative,UI,On Login page,"Enter invalid Branch + valid Username/Password > Login","Branch=InvalidBranch","System shows 'Branch does not exist'",Not Run,,Y
+S1-TC-006,US-2,Invalid Branch shows correct message,High,Negative,UI,On Login page,"Enter invalid Branch + valid Username/Password > Login","Branch=XXXXX","System shows 'Branch does not exist'",Not Run,,Y
 S1-TC-007,US-2,Invalid credentials shows correct message,High,Negative,UI,On Login page,"Enter valid Branch + invalid Username or Password > Login","Username=wrong OR Password=wrong","System shows 'Invalid user name or password'",Not Run,,Y
 S1-TC-008,US-3,RBAC: Branch Admin can access Users module,High,RBAC,UI,Logged in as Branch Admin,"Click Users in nav","Role=Branch Admin","Users page accessible",Not Run,,Y
 S1-TC-009,US-4,RBAC: Loan Manager cannot add new users,Critical,RBAC,UI,Logged in as Loan Manager,"Open Users page > verify Add User option","Role=Loan Manager","Add User is not available / action blocked",Not Run,,N
