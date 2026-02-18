@@ -4,7 +4,7 @@ WF-TC-002	Valid login navigates to Dashboard	Critical	Functional	UI	Valid test u
 WF-TC-003	Branch mandatory validation	Critical	Negative	UI	On Login page	Leave Branch blank > Click Login	Blank Branch	System shows 'Please fill out this field.'	Automated		Yes
 WF-TC-004	Username mandatory validation	Critical	Negative	UI	On Login page	Leave Username blank > Click Login	Blank Username	System shows 'Please fill out this field.'	Automated		Yes
 WF-TC-005	Password mandatory validation	Critical	Negative	UI	On Login page	Leave Password blank > Click Login	Blank Password	System shows 'Please fill out this field.'	Automated		Yes
-WF-TC-006	Verify form behavior with minimum field values	Critical	Boundary	UI	"1) Open URL: [subdomain].hitekschool.com/lms/[build_number] 
+WF-TC-006	Verify form behavior with minimum field values	Critical	Boundary	UI	"1) Open URL: XXXXXX
 2) Login with ""Branch Name"", ""UserName"" and ""Password"" and reach Dashboard page
 3) Click on ""Customers"" link on the ""Navigation"" bar link in the top left corner
 4) Click on ""Add Customer"" button on top right corner"	"5) On ""Add Customer"" Page
