@@ -1,1 +1,1 @@
-Structured sprint documentation outlining incremental feature delivery and requirement alignment within the LMS Agile framework.
+Agile-aligned requirement documentation structured by sprint to support incremental LMS feature delivery and traceability.
