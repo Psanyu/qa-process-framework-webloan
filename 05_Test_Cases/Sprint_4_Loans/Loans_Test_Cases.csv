@@ -1,0 +1,9 @@
+TC_ID,User_Story_ID,Title,Priority,Type,Layer,Preconditions,Steps,Test_Data,Expected_Result,Status,Defect_ID,Automation_Candidate
+S4-TC-001,US-19,Loans page loads successfully,High,Smoke,UI,Logged in,"Click Loans in nav",N/A,"Loans list page loads successfully",Not Run,,Y
+S4-TC-002,US-20,Add Loan with valid data,High,Functional,UI,Customer exists,"Click Add Loan > Enter valid data > Save","Valid loan details","Loan created successfully",Not Run,,Y
+S4-TC-003,US-21,Loan mandatory field validation,Critical,Negative,UI,On Add Loan form,"Leave Monthly Income blank > Save",Blank Monthly Income,"Validation message displayed",Not Run,,Y
+S4-TC-004,US-22,Loan calculation accuracy,High,Functional,UI,Valid inputs entered,"Enter income, debt, term","Income=5000; Debt=1000","Correct monthly payment calculated",Not Run,,Y
+S4-TC-005,US-23,Edit Loan updates data,High,Functional,UI,Loan exists,"Edit Loan > Update Term > Save","Term=5 years","Loan details updated successfully",Not Run,,Y
+S4-TC-006,US-24,Delete Loan removes record,High,Functional,UI,Loan exists,"Click Delete > Confirm",N/A,"Loan removed from list",Not Run,,Y
+S4-TC-007,US-25,Loan search works correctly,Medium,Functional,UI,Multiple loans exist,"Enter search criteria","Search=Account#","Correct loan displayed",Not Run,,Y
+
