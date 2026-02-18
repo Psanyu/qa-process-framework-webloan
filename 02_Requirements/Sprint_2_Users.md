@@ -37,7 +37,7 @@ So that I can quickly find specific records
 - Per Page toggle works (5 / 10 / All)
 - Results update dynamically
 
-**US-4:**Add Customer (Positive Flow)
+**US-4:** Add Customer (Positive Flow)
 As a Loan Manager
 I want to add customers
 So that loans can be processed
