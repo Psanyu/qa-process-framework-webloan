@@ -57,3 +57,10 @@ So that incorrect data is rejected
 - Non-numeric Account # → “Must be numeric”
 - Invalid phone format → Warning
 - Invalid email → Warning
+
+**Definition of Done (Sprint 2)**
+- All User & Customer test cases executed
+- High/Critical defects resolved
+- Search & pagination validated
+- Regression suite updated
+- Automation added for Add User & Add Customer
