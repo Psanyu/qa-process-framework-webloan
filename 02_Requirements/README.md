@@ -1,1 +1,1 @@
-Consolidated business and functional requirements documentation covering both Waterfall and Agile delivery models for the LMS system.
+Centralized repository of Business and Functional Requirements artifacts for the LMS system, structured across both Agile and Waterfall SDLC delivery models.
