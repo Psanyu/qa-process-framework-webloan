@@ -1,17 +1,18 @@
-Risk Register – WebLoan LMS QA Framework
-1. Purpose
+**Risk Register – WebLoan LMS QA Framework**
+**1. Purpose**
 
 This document identifies potential project risks across functional, technical, operational, and delivery domains, along with mitigation strategies.
 
-2. Risk Scoring Model
+**2. Risk Scoring Model**
 
 Risk Score = Probability × Impact
 
-Impact	Description
+**Impact	Description**
 High	Business disruption or data loss
 Medium	Feature degradation
 Low	Minor inconvenience
-3. Risk Register Table
+
+**3. Risk Register Table**
 ID	Risk Description	Category	Probability	Impact	Score	Mitigation Strategy
 R1	Duplicate Loan Applications	Functional	High	High	9	Add validation rule + negative testing
 R2	500 Internal Server Error	Technical	Medium	High	6	Backend validation + API testing
@@ -23,23 +24,24 @@ R7	UI Field State Errors	Usability	Medium	Low	3	UI checklist review
 R8	Performance Degradation under Load	Performance	Low	High	6	Performance baseline testing
 R9	Mobile Compatibility Issues	Compatibility	Medium	Low	3	Cross-device validation
 R10	Production Data Integrity Risk	Data	Low	High	6	Data validation checkpoints
-4. High-Risk Areas Identified
 
-Primary Risk Zones:
+**4. High-Risk Areas Identified**
 
-Loan creation & duplication logic
+**Primary Risk Zones:**
 
-Authentication & RBAC
+- Loan creation & duplication logic
 
-Financial calculations
+- Authentication & RBAC
 
-Prequalification letter generation
+- Financial calculations
 
-Backend resource handling
+- Prequalification letter generation
+
+- Backend resource handling
 
 These were treated as regression priority flows.
 
-5. Risk Mitigation Framework
+**5. Risk Mitigation Framework**
 
 For High & Medium risks:
 
@@ -49,34 +51,23 @@ For High & Medium risks:
 ✔ Data verification
 ✔ Regression automation
 
-6. Risk Monitoring Strategy
+**6. Risk Monitoring Strategy**
 
-Reviewed during sprint planning
+- Reviewed during sprint planning
+- Updated during defect triage
+- Evaluated before release sign-off
+- Included in post-release review
 
-Updated during defect triage
+**7. Residual Risk at Release**
+- Minor UI issues (Low impact)
+- Partial search behavior limitations
+- Business-approved functional deferrals
+- Residual risk deemed acceptable by stakeholders.
 
-Evaluated before release sign-off
-
-Included in post-release review
-
-7. Residual Risk at Release
-
-Minor UI issues (Low impact)
-
-Partial search behavior limitations
-
-Business-approved functional deferrals
-
-Residual risk deemed acceptable by stakeholders.
-
-8. Risk Governance Outcome
+**8. Risk Governance Outcome**
 
 The structured risk approach ensured:
-
-No financial calculation failures
-
-No login breakdowns in production
-
-No critical production incidents
-
-Controlled business exposure
+- No financial calculation failures
+- No login breakdowns in production
+- No critical production incidents
+- Controlled business exposure
