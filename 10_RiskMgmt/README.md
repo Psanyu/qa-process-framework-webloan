@@ -13,16 +13,27 @@ Medium	Feature degradation
 Low	Minor inconvenience
 
 **3. Risk Register Table**
+
 ID	Risk Description	Category	Probability	Impact	Score	Mitigation Strategy
+
 R1	Duplicate Loan Applications	Functional	High	High	9	Add validation rule + negative testing
+
 R2	500 Internal Server Error	Technical	Medium	High	6	Backend validation + API testing
+
 R3	Login Failure	Security	Medium	High	6	Authentication regression suite
+
 R4	Incorrect Loan Calculations	Financial	Low	High	6	Boundary & equivalence testing
+
 R5	Data Not Updating on Dashboard	Integration	Medium	Medium	4	API validation + DB verification
+
 R6	Search Logic Failure	Functional	Medium	Medium	4	Data-driven test cases
+
 R7	UI Field State Errors	Usability	Medium	Low	3	UI checklist review
+
 R8	Performance Degradation under Load	Performance	Low	High	6	Performance baseline testing
+
 R9	Mobile Compatibility Issues	Compatibility	Medium	Low	3	Cross-device validation
+
 R10	Production Data Integrity Risk	Data	Low	High	6	Data validation checkpoints
 
 **4. High-Risk Areas Identified**
