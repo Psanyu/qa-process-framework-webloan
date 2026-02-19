@@ -14,7 +14,7 @@ Low	Minor inconvenience
 
 **3. Risk Register Table**
 
-ID	Risk Description	Category	Probability	Impact	Score	Mitigation Strategy
+ID, Risk Description, Category, Probability, Impact, Score, Mitigation, Strategy
 
 R1	Duplicate Loan Applications	Functional	High	High	9	Add validation rule + negative testing
 
