@@ -1,7 +1,7 @@
 **Executive Summary**
 **Project Overview**
 
-The WebLoan QA Process Framework demonstrates an end-to-end Agile Quality Assurance operating model for a Financial Loan Management System (LMS).
+The WebLoan QA Process Framework demonstrates an end-to-end Enterprise Quality Assurance operating model for a Financial Loan Management System (LMS), spanning both Agile and Waterfall SDLC methodologies.
 
 This project simulates enterprise-level QA delivery by integrating Manual Testing, API Testing, and UI Automation within a structured SDLC and STLC framework.
 
